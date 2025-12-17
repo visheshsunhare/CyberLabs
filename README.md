@@ -20,5 +20,7 @@ sudo python3 mdocker.py run ./my_rootfs /bin/sh
 Once inside the container shell, try these commands:
 
 hostname: Should show mDocker-box.
+
 ls /: Should show only the container files.
+
 ps: Should show your shell as PID 1.
