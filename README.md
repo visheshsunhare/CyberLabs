@@ -1,5 +1,4 @@
-# CyberLabs
-Minimal Runtime Container Project
+# Minimal Runtime Container Project
 
 mDocker is a simple version of Docker built from scratch to learn how containers work. It uses core Linux features to create an isolated "box" where applications can run safely without touching the main system.
 
