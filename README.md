@@ -5,6 +5,7 @@ mDocker is a simple version of Docker built from scratch to learn how containers
 
 # How to Set Up
 Before running the script, you need a "RootFS" folder (the container's hard drive).
+
 Create a folder and download Alpine Linux:
 
   mkdir my_rootfs
@@ -19,7 +20,7 @@ Create a folder and download Alpine Linux:
   
 # How to Run
 You must use sudo because the script needs permission to create new namespaces
-# Usage: sudo python3 mdocker.py run <path_to_rootfs> <command>
+#Usage: sudo python3 mdocker.py run <path_to_rootfs> <command>
 sudo python3 mdocker.py run ./my_rootfs /bin/sh
 
 # Verification
