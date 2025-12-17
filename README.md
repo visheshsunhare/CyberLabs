@@ -20,7 +20,9 @@ Create a folder and download Alpine Linux:
   
 # How to Run
 You must use sudo because the script needs permission to create new namespaces
+
 #Usage: sudo python3 mdocker.py run <path_to_rootfs> <command>
+
 sudo python3 mdocker.py run ./my_rootfs /bin/sh
 
 # Verification
